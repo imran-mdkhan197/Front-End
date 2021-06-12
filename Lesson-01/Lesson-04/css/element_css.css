@@ -1,0 +1,17 @@
+#box{
+    width: 500px;
+    height: auto;
+
+}
+
+.box-text{
+    color: green;
+}
+
+div#box > p.box-text {
+    color:honeydew;
+}
+
+div#box > p > span{
+    color: black;
+}

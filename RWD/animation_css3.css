@@ -1,0 +1,45 @@
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    position: absolute;
+    animation-name: runMe;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes runMe{
+
+   0%{
+       left: 10px;
+       top: 10px;
+   }
+
+   25%{
+       top: 10px;
+       left: 200px;
+       width: 50px;
+       height: 50px;
+       background-color: violet;
+       transform: rotate(90deg);
+   }
+
+   50%{
+    top: 200px;
+    left: 200px;
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    transform: rotate(90deg);
+   }
+
+   75%{
+    top: 200px;
+    left: 10px;
+   }
+   100%{
+    top: 10px;
+    left: 10px;
+   }
+}
